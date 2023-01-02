@@ -7,22 +7,27 @@ body{
     
 }
 main#conteiner{
+    width:100%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.postagem{
     border: 1px solid black;
     width: 80%;
     margin: 20px auto 0 auto;
+    padding: 10px;
     box-shadow: 2px 2px 4px black;
     background: linear-gradient(to bottom, #173c5e, #eca582);
     color: #ffffff;
-    display:flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
 }
 img#img{
     width: 50%;
     box-shadow: 1px 1px 3px black;
 }
-footer{
+footer.rodape{
     font-size: 8pt;
     color: black;
     text-align: center;
