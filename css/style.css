@@ -18,10 +18,6 @@ main#conteiner{
     justify-content: center;
     border-radius: 10px;
 }
-section.postagem{
-    background-image: src("imagens/foto-mulher.jpg") no-repeat;
-    padding: 10px;
-}
 img#img{
     width: 50%;
     box-shadow: 1px 1px 3px black;
