@@ -7,8 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/dd82567ff5.js" crossorigin="anonymous"></script>
+    <style>
+        main#conteudo{
+            display: flex;
+            flex-direction: column;
+        }
+        div.formulario{
+            display: flex;
+            box-shadow: 2px 2px 4px #000000;
+        }
+
+    </style>
 </head>
 <body>
+    <main id="conteudo">
     <section id="top-bar">
         <input type="checkbox" name="check" id="check">
         <label for="check"> <i class="fas fa-bars" id="menu"></i></label> 
@@ -17,13 +29,26 @@
           <ul>
             <li><a href="index.html">pagina inicial</a></li>
             <li><a href="login.html">login</a></li>
-            <li><a href="sobre.html">sobre-nós</a></li>
+            <li><a href="sobre.html">sobre nós</a></li>
             <li><a href="fotos.html">fotos</a></li>
           </ul>
          </div>
       </section>
+      <div class="formulario">
+        <form action="index.html">
+            <p>acesse sua conta ou <a href="registrar-se.html">crie uma aqui</a></p>
+            <label for="email"> E-mail</label>
+            <input type="email" id="email" placeholder="exemplo123@gmail.com">
+            <label for="senha">senha</label>
+            <input type="password" id="senha" placeholder="******" minlength="6">
+            <input type="button" id="btn" value="entrar">
+            <p><span>Esqueceu sua senha? <a href="#">clique aqui!</a></span></p>
+        </form>
+      </div>
 
       <footer class="rodape"> &copy;Escrito por Amanda de oliveira cauneto<br>
         editado por patrick marquezine</footer>
+    </main>
+    <script src="scripts/login.js"></script>
 </body>
 </html>

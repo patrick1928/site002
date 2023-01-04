@@ -27,10 +27,9 @@ div.sidebar{
 div.sidebar ul li{
     display: inline;
     padding: 10px;
-    margin: -5px;
     float: right;
     position: relative;
-    right: 1%;
+    right: 5%;
 }
 div.sidebar ul li a{
     text-decoration: none;
@@ -40,10 +39,11 @@ div.sidebar ul li a{
     background: white;
     transition: all .5s ease;
     padding: 0px 5px 0px 5px;
+
     
 }
 div.sidebar ul li a:hover{
-    background-color: #173c5e;
+    background-color: #103252;
     color: #ffffff;
     font-size: 25pt;
 }
