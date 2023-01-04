@@ -18,8 +18,38 @@ section#top-bar{
     height: 8vh;
     background: #dddddd;
     box-shadow: 1px 1px 3px #000000;
-    display:none;
+    display:;
 }
+div.sidebar{
+    margin-top:25px;
+    background: rgba(251, 251, 251, 0.863);
+    width: 40%;
+    height: 400px;
+    z-index: 100;
+    position: relative;
+    box-shadow: 1px 1px 3px #000000;
+    color: #000000;
+    text-align: center;
+    display: none;
+    left: -300px;
+}
+div.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25pt;
+    border: 1px solid black;
+    padding: auto;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+i#menu{
+    display: none;
+}
+
 section.postagem{
     border: 1px solid black;
     width: 80%;
@@ -40,8 +70,15 @@ footer.rodape{
     text-align: center;
     margin-top: 10px;
 }
-@media screen and (max-width: 800px){
-  section#top-bar{
+@media screen and (max-width: 750px){
+  div.sidebar{
     display: block;
   }
+  i#menu{
+    position: relative;
+    left: 2%;
+    display: block;
+    
+}
+
 }
