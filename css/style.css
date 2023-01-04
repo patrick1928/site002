@@ -18,26 +18,34 @@ section#top-bar{
     height: 8vh;
     background: #dddddd;
     box-shadow: 1px 1px 3px #000000;
-    display:;
+   
 }
 div.sidebar{
-    margin-top:25px;
-    background: rgba(251, 251, 251, 0.863);
-    width: 40%;
-    height: 400px;
-    z-index: 100;
+    transition: all .5s ease;
+    
+}
+div.sidebar ul li{
+    display: inline;
+    padding: 10px;
+    margin: -5px;
+    float: right;
     position: relative;
-    box-shadow: 1px 1px 3px #000000;
-    color: #000000;
-    text-align: center;
-    display: ;
+    right: 1%;
 }
 div.sidebar ul li a{
     text-decoration: none;
     color: black;
+    font-size: 20pt;
+    box-shadow: 2px 2px 4px #000000;
+    background: white;
+    transition: all .5s ease;
+    padding: 0px 5px 0px 5px;
+    
+}
+div.sidebar ul li a:hover{
+    background-color: #173c5e;
+    color: #ffffff;
     font-size: 25pt;
-    border: 1px solid black;
-    padding: ;
 }
 #check{
     display: none;
@@ -71,7 +79,24 @@ footer.rodape{
 }
 @media screen and (max-width: 750px){
   div.sidebar{
-    display: block;
+    margin-top:25px;
+    background: rgba(251, 251, 251, 0.863);
+    width: 40%;
+    height: 400px;
+    left: -300px;
+    z-index: 100;
+    position: relative;
+    box-shadow: 1px 1px 3px #000000;
+    color: #000000;
+    text-align: center;
+
+  }
+  div.sidebar ul{
+    display: flex;
+    flex-direction: column;
+  }
+  div.sidebar ul li{
+    padding: 10px;
   }
   i#menu{
     position: relative;
