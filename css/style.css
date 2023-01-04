@@ -30,8 +30,7 @@ div.sidebar{
     box-shadow: 1px 1px 3px #000000;
     color: #000000;
     text-align: center;
-    display: none;
-    left: -300px;
+    display: ;
 }
 div.sidebar ul li a{
     text-decoration: none;
