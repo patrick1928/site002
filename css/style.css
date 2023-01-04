@@ -18,6 +18,7 @@ section#top-bar{
     height: 8vh;
     background: #dddddd;
     box-shadow: 1px 1px 3px #000000;
+    display:none;
 }
 section.postagem{
     border: 1px solid black;
@@ -38,4 +39,9 @@ footer.rodape{
     color: black;
     text-align: center;
     margin-top: 10px;
+}
+@media screen and (max-width: 800px){
+  section#top-bar{
+    display: block;
+  }
 }
