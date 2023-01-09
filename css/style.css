@@ -3,3 +3,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-attachment: fixed;
+}
+section#menu{
+    width: 30%;
+    height: 100vw;
+    background: linear-gradient(to bottom, #171433, #1500ffa1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#menu ul{
+
+}
+#check{
+    display: none;
+}
