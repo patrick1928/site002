@@ -28,12 +28,14 @@ section#menu ul{
 section#menu ul li{
     background-color: #dddddd;
     margin-top: 25px;
-    width: 50%;
-    height: 25px;
+    width: 80%;
+    box-shadow: 2px 2px 3px #000000b4;
     margin: 10px auto 0 10%;
     text-align: center;
     list-style: none;
     padding-top: 3px;
+    border-radius: 10px;
+    font-size: 20pt;
 }
 section#menu ul li a{
     text-decoration: none;
@@ -56,6 +58,11 @@ section.postagem p{
     margin-left: 30%;
     width: 70%;
 }
+section.postagem h1{
+    position: relative;
+    top: 370px;
+    margin-left: 60%;
+}
 
 footer{
     bottom: 0;
@@ -66,11 +73,11 @@ footer{
     display: none;
 }
 span.menu{
-    color: #FFB800;
-    background-color: #7A41E0;
+    color: #807118;
+    
     font-size: 25pt;
     padding: 0 25px 0 25px;
-    margin: 10px auto 0 10%;
+    margin: 10px auto 0 auto;
     width: 60%;
     position: relative;
     text-align: center;
