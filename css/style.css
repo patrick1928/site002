@@ -42,7 +42,7 @@ section#menu ul li a{
     text-transform: uppercase;
 }
 section.postagem{
-    background-image: url("/imagens/background.png");
+    background-image: url("imagens/background.png");
     width: 60%;
     height: 627px;
     float: right;
